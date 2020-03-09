@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f54ac59b-19c7-4494-b00f-e1e32b67c628" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="f54ac59b-19c7-4494-b00f-e1e32b67c628" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mergeXML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mergeXML.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mergeXML/com/company/mergexml/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mergeXML/com/company/mergexml/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mergeXML/com/company/mergexml/MergeArraysXml.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mergeXML/com/company/mergexml/MergeAttrsXml.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/mergexml/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/mergexml/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,31 +23,30 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VQXgOx7sxMPXykOXuH0LiKOVds" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/dom4j-2.1.1.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -71,11 +78,63 @@
       <workItem from="1577186405804" duration="1529000" />
       <workItem from="1577192554565" duration="271000" />
       <workItem from="1577241418082" duration="18772000" />
+      <workItem from="1579084837309" duration="734000" />
+      <workItem from="1579087110803" duration="1027000" />
+      <workItem from="1580882214743" duration="314000" />
+      <workItem from="1580882618580" duration="1142000" />
+      <workItem from="1583771854608" duration="517000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="804" y="403" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583772090014">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="804" y="403" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1583772090014" />
+    <state x="564" y="255" key="FileChooserDialogImpl" timestamp="1583772111051">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="564" y="255" key="FileChooserDialogImpl/0.0.1920.1035@0.0.1920.1035" timestamp="1583772111051" />
+    <state width="1352" height="510" key="GridCell.Tab.0.bottom" timestamp="1580902884163">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="1352" height="510" key="GridCell.Tab.0.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1580902884163" />
+    <state width="1352" height="510" key="GridCell.Tab.0.center" timestamp="1580902884163">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="1352" height="510" key="GridCell.Tab.0.center/0.0.1920.1035@0.0.1920.1035" timestamp="1580902884163" />
+    <state width="1352" height="510" key="GridCell.Tab.0.left" timestamp="1580902884162">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="1352" height="510" key="GridCell.Tab.0.left/0.0.1920.1035@0.0.1920.1035" timestamp="1580902884162" />
+    <state width="1352" height="510" key="GridCell.Tab.0.right" timestamp="1580902884163">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="1352" height="510" key="GridCell.Tab.0.right/0.0.1920.1035@0.0.1920.1035" timestamp="1580902884163" />
+    <state x="818" y="178" key="SettingsEditor" timestamp="1583772115591">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="818" y="178" key="SettingsEditor/0.0.1920.1035@0.0.1920.1035" timestamp="1583772115591" />
+    <state x="623" y="337" key="com.intellij.ide.util.TipDialog" timestamp="1583771858181">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="623" y="337" key="com.intellij.ide.util.TipDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1583771858181" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

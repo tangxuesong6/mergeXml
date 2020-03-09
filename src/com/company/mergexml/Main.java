@@ -5,11 +5,18 @@ import org.dom4j.DocumentException;
 public class Main {
 
     public static void main(String[] args) throws DocumentException {
-        String originalPath = "/home/txs/Downloads/jdom-2.0.6/";
-        String appendPath = "/home/txs/Downloads/jdom-2.0.6/";
-//        mergePublicXml(originalPath, appendPath);
+        String originalPath = "/home/txs/Center/project/hack/idle_gun/gun/res/values/";
+        String appendPath = "/home/txs/Center/project/OnlySDK/app/build/outputs/apk/debug/app-debug/res/values/";
+        mergePublicXml(originalPath, appendPath);
+        mergeColorsXml(originalPath,appendPath);
+
+        mergeDimensXml(originalPath,appendPath);
+        mergeIdsXml(originalPath,appendPath);
+        mergeIntegersXml(originalPath,appendPath);
+        mergeStringsXml(originalPath,appendPath);
+        mergeStylesXml(originalPath,appendPath);
 //        mergeArraysXml(originalPath,appendPath);
-        mergeAttrsXml(originalPath, appendPath);
+//        mergeAttrsXml(originalPath, appendPath);
 
     }
 
