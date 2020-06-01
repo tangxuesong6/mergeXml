@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f54ac59b-19c7-4494-b00f-e1e32b67c628" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/dom4j_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mergeXML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mergeXML.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/mergeXML/com/company/mergexml/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mergeXML/com/company/mergexml/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mergeXML/com/company/mergexml/MergeArraysXml.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mergeXML/com/company/mergexml/MergeAttrsXml.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mergeXML/com/company/mergexml/MergeNoChildXml.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mergeXML/com/company/mergexml/MergeNoChildXml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mergeXML/com/company/mergexml/MergePublicXml.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mergeXML/com/company/mergexml/MergePublicXml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mergeXML/com/company/mergexml/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mergeXML/com/company/mergexml/Utils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/mergexml/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/mergexml/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/mergexml/MergeNoChildXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/mergexml/MergeNoChildXml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/mergexml/MergePublicXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/mergexml/MergePublicXml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/mergexml/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/mergexml/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -82,7 +84,9 @@
       <workItem from="1579087110803" duration="1027000" />
       <workItem from="1580882214743" duration="314000" />
       <workItem from="1580882618580" duration="1142000" />
-      <workItem from="1583771854608" duration="517000" />
+      <workItem from="1583771854608" duration="926000" />
+      <workItem from="1583772875110" duration="3685000" />
+      <workItem from="1591003133450" duration="52000" />
     </task>
     <servers />
   </component>
@@ -107,34 +111,39 @@
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="804" y="403" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1583772090014" />
+    <state x="647" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591003143909">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="647" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080/1920.0.2560.1440@0.0.1920.1080" timestamp="1591003143909" />
     <state x="564" y="255" key="FileChooserDialogImpl" timestamp="1583772111051">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="564" y="255" key="FileChooserDialogImpl/0.0.1920.1035@0.0.1920.1035" timestamp="1583772111051" />
-    <state width="1352" height="510" key="GridCell.Tab.0.bottom" timestamp="1580902884163">
+    <state width="1874" height="232" key="GridCell.Tab.0.bottom" timestamp="1583776560466">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1352" height="510" key="GridCell.Tab.0.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1580902884163" />
-    <state width="1352" height="510" key="GridCell.Tab.0.center" timestamp="1580902884163">
+    <state width="1874" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1583776560466" />
+    <state width="1874" height="232" key="GridCell.Tab.0.center" timestamp="1583776560465">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1352" height="510" key="GridCell.Tab.0.center/0.0.1920.1035@0.0.1920.1035" timestamp="1580902884163" />
-    <state width="1352" height="510" key="GridCell.Tab.0.left" timestamp="1580902884162">
+    <state width="1874" height="232" key="GridCell.Tab.0.center/0.0.1920.1035@0.0.1920.1035" timestamp="1583776560465" />
+    <state width="1874" height="232" key="GridCell.Tab.0.left" timestamp="1583776560465">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1352" height="510" key="GridCell.Tab.0.left/0.0.1920.1035@0.0.1920.1035" timestamp="1580902884162" />
-    <state width="1352" height="510" key="GridCell.Tab.0.right" timestamp="1580902884163">
+    <state width="1874" height="232" key="GridCell.Tab.0.left/0.0.1920.1035@0.0.1920.1035" timestamp="1583776560465" />
+    <state width="1874" height="232" key="GridCell.Tab.0.right" timestamp="1583776560465">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1352" height="510" key="GridCell.Tab.0.right/0.0.1920.1035@0.0.1920.1035" timestamp="1580902884163" />
-    <state x="818" y="178" key="SettingsEditor" timestamp="1583772115591">
+    <state width="1874" height="232" key="GridCell.Tab.0.right/0.0.1920.1035@0.0.1920.1035" timestamp="1583776560465" />
+    <state x="465" y="131" key="SettingsEditor" timestamp="1583772773884">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state x="818" y="178" key="SettingsEditor/0.0.1920.1035@0.0.1920.1035" timestamp="1583772115591" />
-    <state x="623" y="337" key="com.intellij.ide.util.TipDialog" timestamp="1583771858181">
-      <screen x="0" y="0" width="1920" height="1035" />
+    <state x="465" y="131" key="SettingsEditor/0.0.1920.1035@0.0.1920.1035" timestamp="1583772773884" />
+    <state x="623" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1591003255586">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="337" key="com.intellij.ide.util.TipDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1583771858181" />
+    <state x="623" y="337" key="com.intellij.ide.util.TipDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1583772875236" />
+    <state x="623" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.2560.1440@0.0.1920.1080" timestamp="1591003255586" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

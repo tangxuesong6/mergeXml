@@ -1,12 +1,12 @@
 package com.company.mergexml;
 
-import org.dom4j.*;
-import org.dom4j.io.OutputFormat;
+import org.dom4j.Attribute;
+import org.dom4j.Document;
+import org.dom4j.DocumentException;
+import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
-import org.dom4j.io.XMLWriter;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
@@ -79,10 +79,18 @@ public class MergePublicXml implements Runnable {
                         System.out.println("  [" + attName + ": " + attValue + "]");
                     }
 
+                } else {
+                    String content = "相同的 id **********\n" + "name = " + name + " ,type = " + type + " ,id = " + child.attributeValue("id") + "\n" + "************";
+                    Utils.writeLog(mOriginalPath, content);
                 }
 
             }
-            Utils.write2file(mOriginalPath,originalDocument);
+            Utils.write2file(mOriginalPath, originalDocument);
+            StringBuilder maxValueContent = new StringBuilder("最大值\n");
+            for (String key : mMaxValue.keySet()){
+                maxValueContent.append("key : ").append(key).append(" ,value : ").append(mMaxValue.get(key)).append("\n");
+            }
+            Utils.writeLog(mOriginalPath, maxValueContent.toString());
         } catch (DocumentException | IOException e) {
             e.printStackTrace();
         }

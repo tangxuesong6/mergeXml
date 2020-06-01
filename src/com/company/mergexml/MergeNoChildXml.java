@@ -55,6 +55,16 @@ public class MergeNoChildXml implements Runnable {
                         String attValue = attr.getValue();// 属性的值
                         System.out.println("  [" + attName + ": " + attValue + "]");
                     }
+                }else {
+                    System.out.println("相同的值********\n");
+                    List<Attribute> listAttr = child.attributes();// 所有属性
+                    for (Attribute attr : listAttr) {// 遍历所有属性
+                        String attName = attr.getName();// 属性名称
+                        String attValue = attr.getValue();// 属性的值
+                        System.out.println("  [" + attName + ": " + attValue + "]");
+                    }
+                    System.out.println("\n 相同的值 over ********");
+
                 }
             }
             Utils.write2file(mOriginalPath, originalDocument);
